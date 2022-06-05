@@ -1,0 +1,292 @@
+
+/* PARTIE COMMUN */
+
+body {
+    background-color: rgba(100, 162, 233, 0.745);
+    display:flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top:0;
+    justify-content: center;
+    flex-direction: column;
+}
+.logobiteme {
+    width:150px;
+    border-radius: 25px;
+}
+.haut {
+    display: flex;
+    justify-content: space-between;
+}
+.hautg {
+    display: flex;
+    align-items: center;
+}
+.KC {
+    align-self: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(100, 162, 233, 0.745) ;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.menu {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    box-sizing: content-box;
+    width: 800px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.8rem;
+    border: 5px;
+    padding: 5px;
+
+}
+.menucolor {
+    color: #E78EA9;
+    background-color: #B9F8D3;
+    border-radius: 5px;
+    padding: 3px;
+    padding-bottom:0;
+    padding-top:0;
+    border: 1px solid rgba(100, 162, 233, 0.745) ;
+}
+.ban {
+    border-radius: 25px;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 300px;
+    width: 99%;
+    margin: bottom 0px;;
+}
+header {
+    background-color: rgba(255, 255, 255, 0.904);
+    margin:2px;
+    border: 10px;
+    padding:2px;
+    border-style: solid;
+    border-color: #e78ea99e ;
+    border-radius: 25px;
+}
+
+/* PARTIE COMMUN */
+
+/* PARTIE MAIN ACCUEIL */
+
+.index-main {
+    display: flex;
+    flex-direction: row;
+}
+.news {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #B9F8D3;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 15px;
+    border: 1px solid #e78ea99e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bold;
+    font-size: 18px;
+    text-align-last: center;
+}
+.new1 {
+    display: flex;
+    text-align-last: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bold;
+    font-size: 20px;
+}
+.new2 {
+    display: flex;
+    text-align-last: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bold;
+    font-size: 20px;
+}
+.new3 {
+    display: flex;
+    text-align-last: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bold;
+    font-size: 20px;
+}
+.new4 {
+    display: flex;
+    text-align-last: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bold;
+    font-size: 20px;
+}
+.new5 {
+    display: flex;
+    text-align-last: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bold;
+    font-size: 20px;
+}
+.logonews {
+    height: 95px;
+    border: 3px solid rgba(0, 0, 0, 0.262);
+    border-radius: 15px;
+    margin-right: 10px;
+    width: 100px;
+}
+.calimero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #E78EA9 ;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 15px;
+    border: 1px solid #B9F8D3;
+
+}
+.imgkali {
+    height: 200px;
+    border-radius: 15px;
+}
+.description {
+    align-self: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bold;
+    font-size: 18px;
+    text-align-last: center;
+}
+.logo {
+    display: flex;
+    justify-content: space-around;
+}
+.didi {
+    height:50px;
+    width: 50px;
+    border-radius: 10px;
+}
+.twitter {
+    height:50px;
+    width: 50px;
+    border-radius: 10px;
+}
+.insta {
+    height:55px;
+    width: 55px;
+    border-radius: 10px;
+}
+
+/* PARTIE MAIN ACCUEIL */
+
+/* Partie VELO */
+
+.descriptionvelo {
+    text-align-last: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bold;
+    font-size: 40px;
+    margin:5%;
+}
+
+/* Partie VELO */
+
+.ragecali {
+    display: flex;
+    margin-left: 33%;
+    height: 300px;
+}
+/* Partie JEUX VIDEOS */
+.logojv {
+    height: 95px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-right: 5px;
+    width: 100px;
+}
+.jv1 {
+    display: flex;
+}
+.jv2 {
+    display: flex;
+}
+.jv3 {
+    display: flex;
+}
+.jv4 {
+    display: flex;
+}
+.jv5 {
+    display: flex;
+}
+.cjv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #B9F8D3;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 15px;
+    border: 1px solid #070103;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bold;
+    font-size: 25px;
+}
+/* Partie JEUX VIDEOS */
+
+/* Partie CANAPECH */
+
+.echauf {
+    display: flex;
+}
+.echaufgif{
+    height: 300px;
+    width: 400px;
+    border-radius: 25px;
+    margin-bottom:20px;
+}
+.descriptionechauff {
+    display: flex;
+    align-self: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bold;
+    font-size: 35px;
+    margin-left:20px;
+}
+.doug {
+    display: flex;
+}
+.douggif {
+    height: 300px;
+    width: 400px;
+    border-radius: 25px;
+    margin-bottom:20px;
+}
+.descriptiondoug {
+    display: flex;
+    align-self: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bold;
+    font-size: 35px;
+    margin-left:20px;
+}
+/* Partie CANAPECH */
+
+/* Partie CONTACT */
+
+.contact {
+    display: flexbox;
+    align-self: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: bold;
+    font-size: 35px;
+    margin-left:20px;
+    background-color: #B9F8D3;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 15px;
+}
+
+/* Partie CONTACT */
