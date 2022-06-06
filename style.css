@@ -68,7 +68,18 @@ header {
     border-color: #e78ea99e ;
     border-radius: 25px;
 }
-
+footer {
+    background-color: rgba(255, 255, 255, 0.904);
+    margin:2px;
+    border: 12px;
+    padding:2px;
+    border-style: solid;
+    border-color: #e78ea99e ;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* PARTIE COMMUN */
 
 /* PARTIE MAIN ACCUEIL */
