@@ -1,1 +1,0 @@
-# Gandhi-Duch.github.io
