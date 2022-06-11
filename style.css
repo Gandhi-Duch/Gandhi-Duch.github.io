@@ -1,0 +1,122 @@
+* {
+    background-color: rgb(254, 254, 250);
+    font-family: 'Space Mono', monospace;
+    margin:0;
+}
+
+.written-bloc {
+    display:flex;
+    flex-direction:column;
+    height: 50%;
+    min-width:400px;
+    
+}
+h1 {
+    font-weight:Bold 700;
+    font-size: 3.0rem;
+    width: 60%;
+}
+#bad {
+    color: rgb(251, 108, 52);
+}
+#by {
+    color: rgb(251, 108, 52);
+    text-decoration: underline;
+    text-indent: 0.2rem;
+}
+h3 {
+    font-size: 1.2rem;
+    width: 39%;
+    color:rgb(104, 104, 102) ;
+    font-weight: lighter;
+    margin-top:5%;
+    margin-bottom:5%;
+    min-width:250px;
+}
+h2 {
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin: 2% 1.5% 1.5% 8.5% ;
+}
+.middle-box {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin:10% auto 5% auto;
+
+}
+#img {
+    display:flex;
+    width: 30%;
+    margin-left: 12%;
+    margin-right: 5%;
+    min-width: 250px;
+}
+
+h5 {
+    display:flex;
+    justify-content:center;
+    color: rgb(104, 104, 102);
+    margin-top: 10%;
+    
+}
+#btn {
+    background-color: rgba(35, 33, 33, 0.903);
+    color: rgb(254, 254, 250);
+    padding: 1.1rem 2rem 1.1rem 2rem;
+    border:none;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    margin-bottom:auto;
+}
+@media screen and (max-width: 500px) {
+    body{
+        min-width: 280px;
+    }
+    .middle-box {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .written-box {
+        display:flex;
+        flex-direction:column;
+        height: 45%;
+        min-width:250px;
+        width: 40%;
+        margin: 0 8% 10% 8%;
+    }
+    #img {
+        display:flex;
+        width: 30%;
+        margin:10% auto 10% auto;
+        min-width: 230px;
+    }
+h1 {
+    font-size: 2.1rem;
+    width: 100%;
+}
+h3 {
+    font-size: 0.8rem;
+    width: 100%;
+    margin:10% auto 15% auto;
+}
+h5 {
+    display:flex;
+    color: rgb(104, 104, 102);
+    font-size: 0.6rem;
+    margin-top: 10%;
+    
+}
+}
+
+/* ************ THEME project ************ */
+/* font-family: 'Indie Flower', cursive;
+font-family: 'Space Mono', monospace; */
+/* background-color: rgba(171, 171, 85, 0.273); */
+/* <!-- <img src="flowers2.png" alt="flowers-img" id="img"> --> */
+
+/* @media screen and (min-width: 501px) and (max-width: 920px) {
+
+} */
+/* ************ THEME project ************ */
